@@ -1,0 +1,78 @@
+.navbar-container {
+    padding: 0rem 0rem;
+}
+
+.navbar > div > svg > path {
+    fill: black;
+}
+
+.navbar > div > svg > path:nth-child(2) {
+    stroke: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 8rem;
+    border-bottom: 0.5px solid #828282;
+}
+
+.navbar-menu {
+    display: flex;
+    margin: auto 0rem;
+}
+
+.navbar-menu > div > p {
+    margin: 0.2rem 0rem 0rem;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.navbar-menu > div:nth-child(2) {
+    padding: 0rem 1.5rem;
+}
+
+.navbar-search {
+    width: 336px;
+    margin: auto 0rem;
+}
+
+.navbar-search > div {
+    border: 0.5px solid #4F4F4F;
+    border-radius: 5px;
+    display: flex;
+    width: inherit;
+    height: 48px;
+}
+
+.navbar-search > div > input, .navbar-search > div > input:focus-visible {
+    border: 0px;
+    border-radius: 5px;
+    outline: 0px;
+    font-size: 15px;
+    overflow: hidden;
+    width: inherit;
+}
+
+.navbar-search > div > span {
+    margin: auto 0.5rem;
+}
+
+.navbar-list {
+    padding: 1.5rem 8rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #828282;
+}
+
+.navbar-list > a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.navbar-list > a:nth-child(1), .navbar-list > a:nth-child(2), .navbar-list > a:nth-child(3), .navbar-list > a:nth-child(4) {
+    color: #F4811F;
+}

@@ -1,0 +1,61 @@
+.mail-input > div > svg > path {
+    fill: black;
+}
+
+.mail-input > div > svg {
+    height: 32px;
+    width: 42px;
+}
+
+.mail-input > div {
+    display: flex;
+}
+
+.mailbox-container {
+    padding: 2rem 8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.mail-input > div > p {
+    font-size: 20px;
+    font-weight: 600;
+    margin: auto 1rem;
+}
+
+.mail-input {
+    background-color: #F2F2F2;
+    padding: 2rem 17rem 1.5rem 2rem;
+    text-align: left;
+}
+
+.mailbox-image > img {
+    height: 100%;
+}
+
+.mail-input > p {
+    padding: 1.5rem 0rem;
+    margin: 0rem;
+    font-size: 15px;
+}
+
+.mail-input > input {
+    border: 0px;
+    border-bottom: 0.5px solid #000000;
+    width:  -webkit-fill-available;
+    height: 40px;
+    background-color: inherit;
+}
+
+.mail-input > input:focus-visible {
+    outline: 0px;
+}
+
+.mail-input > button {
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: white;
+    padding: 1rem 2.5rem;
+    margin-top: 2.5rem;
+}

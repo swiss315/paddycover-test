@@ -1,0 +1,21 @@
+.contact-bar {
+    background-color: black;
+    display: flex;
+    padding:0rem 8rem
+}
+
+.contact-bar > div {
+    display: flex;
+    color: white;
+    padding: 1rem 0.15rem;
+}
+
+.contact-bar > div > svg {
+    margin: auto 0rem;
+}
+
+.contact-bar > div > p {
+    margin: 0px;
+    font-size: 14px;
+    padding: 0rem 0.75rem;
+}
