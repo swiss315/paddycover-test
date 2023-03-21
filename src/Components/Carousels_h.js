@@ -8,7 +8,7 @@ function CarouselHome() {
     <div>
       <Carousel className="carousal-container" controls={false}>
       <Carousel.Item>
-        <img className="d-block w-100" src={landingimage} alt="First slide" loading="lazy"/>
+        <img className="d-block w-100" src={landingimage} alt="First slide"/>
         <Carousel.Caption className="carousel-home-caption">
           <h3>Explore our Showroom</h3>
           <p>
@@ -21,7 +21,7 @@ function CarouselHome() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={landingimage} alt="Second slide" loading="lazy"/>
+        <img className="d-block w-100" src={landingimage} alt="Second slide" />
         <Carousel.Caption className="carousel-home-caption">
           <h3>Explore our Showroom</h3>
           <p>
@@ -34,7 +34,7 @@ function CarouselHome() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={landingimage} alt="Third slide" loading="lazy"/>
+        <img className="d-block w-100" src={landingimage} alt="Third slide" />
 
         <Carousel.Caption className="carousel-home-caption">
           <h3>Explore our Showroom</h3>
