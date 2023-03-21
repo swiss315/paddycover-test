@@ -80,33 +80,23 @@ function Navbar() {
                 </div>
                 <div className={`${menu ? "show" : "hide"}`}>
                         <li>
-                            <Link to="/pastquestions" className="">
-                                Past Questions
+                            <Link >
+                                LIGHTING Explorer
                             </Link>
                         </li>
                         <li>
-                            <Link to="/blog" className="">
-                                Blog
+                            <Link>
+                            OFFICE
                             </Link>
                         </li>
                         <li>
-                            <Link to="/f.a.q" className="">
-                                FAQ
+                            <Link>
+                                HOTEL
                             </Link>
                         </li>
                         <li>
-                            <Link to="/contact" className="">
-                                Contact Us
-                            </Link>
-                        </li>
-                        <li className='mobile-button'>
-                            <Link to="/register" className="regbutton menureg">
-                                Register
-                            </Link>
-                        </li>
-                        <li >
-                            <Link to="/login" className="loginbutton menulogin">
-                                Log In
+                            <Link>
+                                Account
                             </Link>
                         </li>
                     </div>

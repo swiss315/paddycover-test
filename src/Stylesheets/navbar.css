@@ -147,7 +147,7 @@
     
     .show {
         height: auto;
-        background-color: #002099;
+        background-color: black;
         color: white;
         z-index: 99;
         display: block !important;
@@ -158,11 +158,12 @@
     .show > li {
         display: block;
         padding: 15px 15px 5px;
+        text-transform: uppercase;
     }
     
     .show > li > a{
-       text-decoration: none;
-       color: white;
+        text-decoration: none;
+        color: white;
     }
     
     .show > .mobile-button {
