@@ -68,7 +68,7 @@ function Productonsale() {
                 products.map((product, index) => {
                     return (
                         <div key={index} className='pos-single-product'>
-                            <img src={product.image} alt="standing lamp" />
+                            <img src={product.image} alt="standing lamp" loading="lazy"/>
                             <p className={`product-discount ${product.Discount === 'null' ? 'd-none' : ''}`}>{product.Discount}% OFF</p>
                             <p>{product.Name}</p>
                             <p className='product-price'>N{product.Price}</p>

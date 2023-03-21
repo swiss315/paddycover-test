@@ -22,7 +22,7 @@ function Mailbox() {
             </button>
         </div>
         <div className='mailbox-image'>
-            <img src={mailboximage} alt='mail box' />
+            <img src={mailboximage} alt='mail box' loading="lazy"/>
         </div>
     </div>
   )
