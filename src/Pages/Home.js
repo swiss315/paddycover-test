@@ -32,7 +32,7 @@ function Home() {
         </div>
         <div className="sbs-box-container">
           <div className="product-categories-slider sbs-categgories">
-            <img src={Homeimage} alt="Ceiling Lamp" loading="lazy"/>
+            <img src={Homeimage} alt="Ceiling Lamp"/>
             <div>
               <p>HOME</p>
             </div>
