@@ -61,6 +61,10 @@
     overflow: hidden;
 }
 
+.sbs-categgories > img {
+    max-width: 100%;
+}
+
 /* Carousel Home */
 
 .carousel-home-caption {
