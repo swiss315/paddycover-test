@@ -35,6 +35,12 @@
     /* height: 377px; */
 }
 
+.sbs-categgories {
+    position: relative;
+    text-align: left;
+    width: 384px !important;
+}
+
 .product-categories-slider > div {
     position: absolute;
     bottom: 45px;
