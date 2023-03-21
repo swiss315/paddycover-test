@@ -161,7 +161,7 @@
 
 @media only screen and (max-width: 500px) {
     .pop-container {
-        margin: 1rem 1rem;
+        margin: -1rem 1rem 1rem;
     }
 
     .pos-container {
