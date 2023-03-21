@@ -1,0 +1,126 @@
+.product-categories-container{
+    margin: 2rem 0rem 2rem 8rem;
+}
+
+.product-categories-title {
+    display: flex;
+    gap: 10px;
+}
+
+.product-categories-title > h6 {
+    font-size: 16px;
+    margin: 0rem;
+}
+
+.product-categories-title > a {
+    color: #F4811F;
+    font-size: 15px;
+}
+
+.product-categories-slider {
+    position: relative;
+    /* bottom: 15px; */
+    text-align: left;
+    width: 640px;
+    /* height: 377px; */
+}
+
+.product-categories-slider > div {
+    position: absolute;
+    bottom: 45px;
+    padding: 0.65rem 4rem 0.65rem 1.5rem;
+    left: 45px;
+    background-color: white;
+    border-radius: 5px;
+    color: #F4811F;
+}
+
+.product-categories-slider > div > P {
+    margin: auto 0rem;
+}
+
+.product-categories-slider > img {
+    max-width: 100%;
+}
+
+.product-slider-container {
+    display: flex;
+    gap: 3rem;
+}
+
+/* Carousel Home */
+
+.carousel-home-caption {
+    bottom: 25% !important;
+    left: 9% !important;
+    right: unset !important;
+    background-color: white;
+    color: black !important;
+    text-align: left !important;
+    padding: 1.25rem 10.25rem 1.25rem 1.25rem;
+    width: 460px;
+}
+
+.carousel-home-caption > h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.carousel-home-caption > p {
+    padding: 1.5rem 0rem;
+}
+
+.carousel-home-caption > button {
+    border: 0px;
+    background-color: black;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 1rem 1rem;
+    font-size: 14px;
+}
+
+.carousel-indicators {
+    margin-left: 9% !important;
+    justify-content: inherit !important;
+}
+
+.carousel-indicators > .active {
+    opacity: 1;
+    background-color: #F4811F !important;
+}
+
+/* .carousal-container {
+    height: 71vh;
+} */
+
+/* Shop bt space */
+
+.sbs-container {
+    margin: 3rem 8rem;
+}
+
+.sbs-box-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.sbs-title {
+    text-align: left;
+}
+
+.sbs-title > div {
+    display: flex;
+    gap: 15px;
+}
+
+.sbs-title > div > h6 {
+    margin-bottom: 0px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.sbs-title > div > a {
+    color: #F4811F;
+}

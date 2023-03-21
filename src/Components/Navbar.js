@@ -12,7 +12,7 @@ import "../Stylesheets/navbar.css";
 function Navbar() {
     return (
         <div className="navbar-container">
-            <div className="navbar">
+            <div className="navbar-tm">
                 <div>
                     <Logo />
                 </div>

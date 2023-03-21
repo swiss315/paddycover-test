@@ -2,15 +2,15 @@
     padding: 0rem 0rem;
 }
 
-.navbar > div > svg > path {
+.navbar-tm > div > svg > path {
     fill: black;
 }
 
-.navbar > div > svg > path:nth-child(2) {
+.navbar-tm > div > svg > path:nth-child(2) {
     stroke: black;
 }
 
-.navbar {
+.navbar-tm {
     display: flex;
     justify-content: space-between;
     padding: 0.8rem 8rem;
