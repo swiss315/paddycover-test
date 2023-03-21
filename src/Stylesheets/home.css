@@ -7,21 +7,31 @@
     gap: 10px;
 }
 
+.product-categories-title {
+    padding: 1rem 0rem;
+}
+
+.home-mobile {
+    display: none;
+}
+
 .product-categories-title > h6 {
-    font-size: 16px;
+    font-size: 22px;
+    font-weight: 600;
     margin: 0rem;
 }
 
 .product-categories-title > a {
     color: #F4811F;
     font-size: 15px;
+    margin: auto 0rem;
 }
 
 .product-categories-slider {
     position: relative;
     /* bottom: 15px; */
     text-align: left;
-    width: 640px;
+    width: 705px;
     /* height: 377px; */
 }
 
@@ -39,13 +49,10 @@
     margin: auto 0rem;
 }
 
-.product-categories-slider > img {
-    max-width: 100%;
-}
-
 .product-slider-container {
     display: flex;
     gap: 3rem;
+    overflow: hidden;
 }
 
 /* Carousel Home */
@@ -121,6 +128,186 @@
     font-weight: 600;
 }
 
+/* .sbs-categgories {
+    width: 705px;
+} */
+
 .sbs-title > div > a {
     color: #F4811F;
+}
+
+@media only screen and (max-width: 1280px) {
+    .sbs-container {
+    margin: 3rem 5rem;
+}
+
+    .sbs-categgories {
+        width: 365px;
+    }
+
+    .sbs-categgories > img {
+        max-width: 100% !important;
+    }
+
+    .product-categories-container {
+        margin: 2rem 0rem 2rem 5rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .sbs-container {
+        margin: 3rem 3rem;
+    }
+
+    .product-categories-slider > div {
+        position: absolute;
+        bottom: 25px;
+        padding: 0.65rem 4rem 0.65rem 1.5rem;
+        left: 25px;
+    }
+
+    .product-categories-container {
+        margin: 2rem 0rem 2rem 3rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .carousel-home-caption {
+        bottom: 17% !important;
+        left: 5% !important;
+        width: 365px;
+        padding: 1.25rem 6.25rem 1.25rem 1.25rem;
+    }
+
+    .carousel-home-caption > p {
+        padding: 1rem 0rem;
+        font-size: 14px;
+    }
+
+    .carousel-home-caption > button {
+        padding: 0.75rem 1rem;
+        font-size: 11px;
+    }
+
+    .carousel-indicators {
+        margin-left: 5% !important;
+        justify-content: inherit !important;
+    }
+
+    .product-categories-slider > div > P {
+        margin: auto 0rem;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 600px) {
+    .carousal-container {
+        display: none;
+    }
+
+    .carousel-home-caption {
+        width: inherit;
+        padding: 1.25rem 9.25rem 1.25rem 1.25rem;
+        margin: 0rem 1.25rem;
+        border-bottom: 0.5px solid #FFCA05;
+    }
+
+    .sbs-container {
+        margin: 2rem 2rem;
+    }
+
+    .sbs-title > div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sbs-title > div > h6 {
+        margin-bottom: 0px;
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+    .sbs-title > div > a {
+        color: #F4811F;
+        font-size: 12px;
+    }
+
+    .sbs-title > p {
+        font-size: 12px;
+    }
+
+    .product-categories-slider > div {
+    position: inherit;
+    bottom: 0px;
+    padding: 0.65rem 4rem 0.65rem 0.5rem;
+    left: 0px;
+    }
+
+    .product-categories-slider > div > P {
+    margin: auto 0rem;
+    font-size: 12px;
+    font-weight: 500;
+    color: #000000;
+    }
+
+    .home-mobile {
+        display: block;
+    }
+
+    .product-categories-slider > img {
+        max-width: -webkit-fill-available;
+        height: 75%;
+    }
+
+    .product-categories-slider {
+        width: 345px;
+    } 
+    
+    .product-categories-container {
+        margin: 2rem 0rem 0rem 2rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .carousel-home-caption {
+        width: inherit;
+        padding: 1.25rem 3.25rem 1.25rem 1.25rem;
+        margin: 0rem;
+    }
+    
+    .sbs-container {
+        margin: 2rem 1rem
+    ;
+    }
+
+    .sbs-box-container {
+        gap: 0.3rem;
+    }
+
+    .product-categories-slider {
+        width: 205px;
+    }
+
+    .product-categories-container {
+        margin: 2rem 0rem 0rem 1rem;
+    }
+
+    .product-categories-title > h6 {
+        font-size: 19px;
+        font-weight: 600;
+        margin: 0rem;
+    }
+
+    .product-slider-container {
+        gap: 1.5rem;
+    }
+
+    .product-categories-title {
+        display: flex;
+        padding: 1rem 1rem 1rem 0rem;
+        justify-content: space-between;
+    }
+
 }

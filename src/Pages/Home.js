@@ -8,6 +8,7 @@ import Popularproduct from "../Components/Popular-product";
 import Productonsale from "../Components/Product-on-sale";
 
 import Ceilinglamp from "../Assets/Images/pcategories_cieling.png";
+import chandelierimage from "../Assets/Images/chanderlierimage.png";
 import Homeimage from "../Assets/Images/Homeimage.png";
 import Officeimage from "../Assets/Images/Officeimage.png";
 import Hotelimage from "../Assets/Images/hotelimage.png";
@@ -30,19 +31,19 @@ function Home() {
           <p>Select the type of apartment you want to light up.</p>
         </div>
         <div className="sbs-box-container">
-          <div className="product-categories-slider">
+          <div className="product-categories-slider sbs-categgories">
             <img src={Homeimage} alt="Ceiling Lamp" />
             <div>
               <p>HOME</p>
             </div>
           </div>
-          <div className="product-categories-slider">
+          <div className="product-categories-slider sbs-categgories">
             <img src={Officeimage} alt="Ceiling Lamp" />
             <div>
               <p>OFFICE</p>
             </div>
           </div>
-          <div className="product-categories-slider">
+          <div className="product-categories-slider sbs-categgories">
             <img src={Hotelimage} alt="Ceiling Lamp" />
             <div>
               <p>HOTEL</p>
@@ -65,9 +66,9 @@ function Home() {
             </div>
           </div>
           <div className="product-categories-slider">
-            <img src={Ceilinglamp} alt="Ceiling Lamp" />
+            <img src={chandelierimage} alt="Ceiling Lamp" />
             <div>
-              <p>CEILING LAMPS</p>
+              <p>CHANDELIERS</p>
             </div>
           </div>
         </div>

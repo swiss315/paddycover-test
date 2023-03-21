@@ -59,3 +59,83 @@
     padding: 1rem 2.5rem;
     margin-top: 2.5rem;
 }
+
+@media only screen and (max-width: 1280px) {
+    .mailbox-image > img {
+        height: 100%;
+        max-width: 100%;
+    }
+
+    .mail-input {
+        background-color: #F2F2F2;
+        padding: 2rem 9rem 1.5rem 2rem;
+        text-align: left;
+    }
+
+    .mailbox-container {
+        padding: 2rem 5rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .mailbox-container {
+        padding: 2rem 3rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .mail-input > button {
+        margin-top: 1.5rem;
+    }
+
+    .mail-input > p {
+        padding: 1rem 0rem;
+        margin: 0rem;
+        font-size: 13px;
+    }
+
+    .mail-input > div > p {
+        font-size: 15px;
+    } 
+    
+    .mail-input > div > svg {
+        height: 23px;
+        width: 28px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .mail-input {
+        padding: 2rem 6rem 1.5rem 2rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mail-input {
+        padding: 2rem;
+    }
+
+    .mailbox-image {
+        display: none;
+    }
+
+    .mailbox-container {
+        padding: 2rem 2rem;
+        display: block;
+    }
+
+    .mail-input > button {
+        padding: 0.5rem 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .mailbox-container {
+        padding: 2rem 1rem;
+    }
+
+    .mail-input {
+        padding: 1.5rem;
+    }
+
+}
