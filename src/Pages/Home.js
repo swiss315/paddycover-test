@@ -59,13 +59,13 @@ function Home() {
           <Link>View All</Link>
         </div>
         <div className="product-slider-container">
-          <div className="product-categories-slider">
+          <div className="product-categories-slider product-categories-slider-2">
             <img src={Ceilinglamp} alt="Ceiling Lamp" />
             <div>
               <p>CEILING LAMPS</p>
             </div>
           </div>
-          <div className="product-categories-slider">
+          <div className="product-categories-slider product-categories-slider-2">
             <img src={chandelierimage} alt="Ceiling Lamp" />
             <div>
               <p>CHANDELIERS</p>
